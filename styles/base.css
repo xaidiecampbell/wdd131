@@ -3,7 +3,7 @@
     --secondary-color: #dde5e6;
     --accent1-color: #cf7041;
     --accent2-color: #96aa9a;
-    --font-family: Outfit, Raleway;
+    --font-family: sans-serif;
 }
 
 header {
@@ -64,6 +64,7 @@ main {
     text-decoration: none;
     margin: 10px;
     padding: 10px;
+    justify-content: center;
 
 }
 
