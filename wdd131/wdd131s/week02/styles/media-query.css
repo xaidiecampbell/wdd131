@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'roboto';
+}
+
+
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid rgb(200, 195, 195);
+    padding: 1rem;
+    background-color: #5e718b;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+h1 {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid rgb(200, 195, 195);
+    padding: 1rem;
+    background-color: #5e718b;
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        background-color: black;
+        text-decoration-color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 6800px) {
+    header {
+        background-color: #e2a55a;
+        text-decoration-color: rgb(5, 35, 61);
+    }
+}

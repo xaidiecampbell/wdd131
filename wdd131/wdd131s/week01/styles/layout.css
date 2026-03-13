@@ -1,0 +1,45 @@
+/* code by Xaidie Campbell
+wdd131
+holy grail layout activity week 1*/
+
+:root {
+    --primary-color: rgb(163, 196, 239);
+    --secondary-color: blue;
+    --accent1-color: rgb(133, 179, 133);
+    --accent2-color: rgb(231, 175, 204);
+    --font-family: montserrat, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--accent2-color);
+    padding: 10px;
+    margin: 0; 
+    gap: 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: left;
+    background-color: var(--primary-color);
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    background-color: rgb(244, 239, 239);
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    background-color: var(--accent1-color);
+}
