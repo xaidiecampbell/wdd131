@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     --primary-color: #b4bfc5;
@@ -74,4 +74,4 @@ footer {
     #navMenu.open {
         display: flex;
     }
-}
+} */
