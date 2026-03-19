@@ -62,14 +62,6 @@ svg {
     overflow: hidden;
 }
 
-svg {content: "";
-    width: 10em;
-    height: 10em;
-    vertical-align: middle;
-    fill: #34343d;
-    overflow: hidden;
-}
-
 
 .table1 {
     position: absolute;
@@ -86,7 +78,7 @@ svg {content: "";
 @media (max-width: 700px) {
 
     .table1,
-    .table2::after {
+    .table2::after { content: "";
         position: static;
         width: 100%;
         margin: 10px 0;
