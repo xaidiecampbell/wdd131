@@ -5,7 +5,6 @@
     --secondary-color: #96aa9a;
     --accent1-color: #cf7041;
     --accent2-color: #e2a55a;
-    -text-decoration-color1: #34343d;
     --content: center;
 }
 
@@ -31,7 +30,7 @@ footer {
     text-align: center;
 }
 
-table {
+table { position: relative;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -55,11 +54,22 @@ picture img {
     height: auto;
 }
 
-svg {width: 10em;
+svg::before {
+    width: 10em;
     height: 10em;
     vertical-align: middle;
     fill: #dde5e6;
-    overflow: hidden;}
+    overflow: hidden;
+}
+
+svg::after {
+    width: 10em;
+    height: 10em;
+    vertical-align: middle;
+    fill: #34343d;
+    overflow: hidden;
+}
+
 
 .table1 {
     position: absolute;
