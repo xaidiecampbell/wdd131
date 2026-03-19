@@ -54,7 +54,7 @@ picture img {
     height: auto;
 }
 
-svg::before {
+svg {
     width: 10em;
     height: 10em;
     vertical-align: middle;
@@ -62,7 +62,7 @@ svg::before {
     overflow: hidden;
 }
 
-svg::after {
+svg {content: "";
     width: 10em;
     height: 10em;
     vertical-align: middle;
@@ -86,7 +86,7 @@ svg::after {
 @media (max-width: 700px) {
 
     .table1,
-    .table2 {
+    .table2::after {
         position: static;
         width: 100%;
         margin: 10px 0;
