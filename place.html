@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site about Worcester Massachusetts</title>
+    <meta name="description"
+        content="Description of Worcester Massachusetts, it's population, weather, time zone, interesting facts">
+    <meta name="author" content="Xaidie Cambpell">
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Worcester, Massachusetts USA</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/worc2.webp" media="(min-width: 700px)">
+                <img src="images/worc1.webp" alt="Triple Deckers" width="500" height="250">
+            </picture>
+        </div>
+        <div class="table1">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <td>Population</td>
+                    <td>215,000</td>
+                </tr>
+                <tr>
+                    <td>Density</td>
+                    <td>5500/1 sq mile</td>
+                </tr>
+                <tr>
+                    <td>Number of Colleges</td>
+                    <td>12 Colleges, Universities, and Grad Schools</td>
+                </tr>
+                <tr>
+                    <td>Average Price of Housing</td>
+                    <td>2000 per month</td>
+                </tr>
+                <tr>
+                    <td>Number of Hospitals</td>
+                    <td>5 major general hospitals</td>
+                </tr>
+                <tr>
+                    <td>Number of Jobs</td>
+                    <td>103,000</td>
+                </tr>
+                <tr>
+                    <td>Average income</td>
+                    <td>70,000$ annually</td>
+                </tr>
+                <tr>
+                    <td>Number of native languages spoken</td>
+                    <td>80 different languages</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table2">
+            <h2>Local Weather</h2>
+            <svg class="svg-icon" style="width: 5em; height: 5em;vertical-align: middle;fill: currentColor;overflow: hidden;"
+                viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M641.51552 516.58752c0-79.0528-64.32768-143.36-143.36-143.36s-143.36 64.3072-143.36 143.36c0 79.03232 64.32768 143.36 143.36 143.36s143.36-64.32768 143.36-143.36z m-143.36 102.4c-56.46336 0-102.4-45.93664-102.4-102.4s45.93664-102.4 102.4-102.4 102.4 45.93664 102.4 102.4-45.93664 102.4-102.4 102.4zM477.67552 698.1632v125.62432a20.48 20.48 0 1 0 40.96 0V698.1632a20.48 20.48 0 1 0-40.96 0zM477.67552 209.38752v125.62432a20.48 20.48 0 1 0 40.96 0v-125.62432a20.48 20.48 0 1 0-40.96 0zM700.90752 748.27776a20.41856 20.41856 0 0 0 28.95872 0 20.45952 20.45952 0 0 0 0-28.95872L641.024 630.49728a20.45952 20.45952 0 1 0-28.95872 28.95872l88.84224 88.82176zM266.46528 284.8768a20.45952 20.45952 0 0 0 0 28.95872l88.84224 88.82176a20.41856 20.41856 0 0 0 28.95872 0 20.45952 20.45952 0 0 0 0-28.95872l-88.84224-88.82176a20.48 20.48 0 0 0-28.95872 0zM805.35552 496.10752H679.7312a20.48 20.48 0 1 0 0 40.96h125.62432a20.48 20.48 0 1 0 0-40.96zM170.47552 516.58752a20.48 20.48 0 0 0 20.48 20.48h125.62432a20.48 20.48 0 1 0 0-40.96H190.95552a20.48 20.48 0 0 0-20.48 20.48zM700.90752 284.8768l-88.84224 88.84224a20.45952 20.45952 0 1 0 28.95872 28.95872l88.84224-88.84224a20.45952 20.45952 0 1 0-28.95872-28.95872zM280.94464 754.2784a20.41856 20.41856 0 0 0 14.47936-6.00064l88.84224-88.82176a20.45952 20.45952 0 1 0-28.95872-28.95872l-88.84224 88.82176a20.45952 20.45952 0 0 0 14.47936 34.95936z"
+                    fill="#231F20" />
+            </svg>
+                <table>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>28 degrees</td>
+                    </tr>
+                    <tr>
+                        <td>Conditions</td>
+                        <td>Sunny</td>
+                    </tr>
+                    <tr>
+                        <td>Wind</td>
+                        <td>4 mph</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill</td>
+                        <td>23 degrees</td>
+                    </tr>
+                </table>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>@<span id="currentYear"></span>🌼 Xaidie Campbell 🌼 Worcester, Massachusetts</p>
+    <p><span id="lastModified"></span></p>
+</footer>
+
+</html>
