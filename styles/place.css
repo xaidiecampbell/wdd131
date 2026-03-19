@@ -1,4 +1,4 @@
-* {
+:root {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     --primary-color: #dde5e6;
@@ -7,7 +7,6 @@
     --accent2-color: #e2a55a;
     -text-decoration-color1: #34343d;
     --content: center;
-
 }
 
 header {
@@ -56,12 +55,11 @@ picture img {
     height: auto;
 }
 
-sun-icon {
-    background-color: #cf7041;
-    fill: #34343d;
-    max-width: 300px;
-    height: auto;
-}
+svg {width: 10em;
+    height: 10em;
+    vertical-align: middle;
+    fill: #dde5e6;
+    overflow: hidden;}
 
 .table1 {
     position: absolute;
