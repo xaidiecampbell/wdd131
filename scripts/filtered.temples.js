@@ -164,16 +164,12 @@ function createTempleCard(filteredTemples) {
     });
 }
 
-const allLink = document.querySelector("#all");
+const homeLink = document.querySelector("#home");
 
-allLink.addEventListener("click", () => {
+homeLink.addEventListener("click", () => {
     createTempleCard(temples);
 });
 
-// const nonutahLink = document.querySelector("#nonutah");
-// nonutahLink.addEventListener("click", () => {
-//     createTempleCard(temples.filter(temple => !temple.templeName.includes("Utah")));
-// })
 const oldLink = document.querySelector("#old");
 
 oldLink.addEventListener("click", () =>
