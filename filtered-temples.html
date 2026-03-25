@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples Photo Album</title>
+    <meta name="description"
+        content="Temple Album that shows temples around the world. Includes lazy loading and filters in this web design.">
+    <meta name="author" content="Xaidie Cambpell">
+    <script src="scripts/filtered.temples.js" defer></script>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+
+        <nav>
+            <button id="menuBtn">☰</button>
+            <ul id="navMenu">
+                <li><a href="#" id="all">All Temples</a></li>
+                <li><a href="#" id="nonutah">Non Utah Temples</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="res-grid">
+
+        </div>
+    </main>
+    <footer>
+        <p>@<span id="currentYear"></span>🌼 Xaidie Campbell 🌼 USA</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
