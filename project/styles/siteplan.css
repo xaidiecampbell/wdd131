@@ -12,9 +12,15 @@
 
 h1 {
     display: block;
-    font: Gill Sans;
+    font: Gill Sans;grid-area: nav;
+        background-color: #cf7041;
+        padding: 1rem;
+        text-align: center;
 }
-
+main {grid-area: nav;
+    background-color: var(--color8);
+    padding: 1rem;
+    text-align: center;}
 h2 {
     color: #5e718b;
 }
