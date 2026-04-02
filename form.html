@@ -51,11 +51,11 @@
             </fieldset>
             <fieldset>
                 <legend>Overall Rating*</legend>
-                    <label><input type="radio" name="star" value="1" class="wf1" required> ☆</label>
-                    <label><input type="radio" name="star" value="2" class="wf1" required> ☆☆</label>
-                    <label><input type="radio" name="star" value="3" class="wf1" required> ☆☆☆</label>
-                    <label><input type="radio" name="star" value="4" class="wf1" required> ☆☆☆☆</label>
-                    <label><input type="radio" name="star" value="5" class="wf1" required> ☆☆☆☆☆</label>
+                    <label><input type="radio" name="star" id="star" value="1" class="wf1" required> ☆</label>
+                    <label><input type="radio" name="star" id="star" value="2" class="wf1" required> ☆☆</label>
+                    <label><input type="radio" name="star" id="star" value="3" class="wf1" required> ☆☆☆</label>
+                    <label><input type="radio" name="star" id="star" value="4" class="wf1" required> ☆☆☆☆</label>
+                    <label><input type="radio" name="star" id="star" value="5" class="wf1" required> ☆☆☆☆☆</label>
             </fieldset>
             <fieldset>
                 <legend>Date of Purchase*</legend>
@@ -63,18 +63,18 @@
             </fieldset>
             <fieldset>
                 <legend>What did you like best about the product?*</legend>
-                    <label><input type="checkbox" name="quality" value="yes" class="wf1" > The quality</label>
-                    <label><input type="checkbox" name="relax" value="yes" class="wf1"  > It helped me relax</label>
-                    <label><input type="checkbox" name="value" value="yes" class="wf1" > Good value for the price</label>
-                    <label><input type="checkbox" name="design" value="yes" class="wf1" > It was beautiful</label>
+                    <label><input type="checkbox" id="quality" name="quality" value="yes" class="wf1" > The quality</label>
+                    <label><input type="checkbox" id="relax" name="relax" value="yes" class="wf1"  > It helped me relax</label>
+                    <label><input type="checkbox" id="value" name="value" value="yes" class="wf1" > Good value for the price</label>
+                    <label><input type="checkbox" id="design" name="design" value="yes" class="wf1" > It was beautiful</label>
             </fieldset>
             <fieldset>
                 <legend>Please tell us what you thought of our product.</legend>
-                    <input type="text" id="review-product" name="reviewproduct" value="review product" class="wf1">
+                    <input type="textarea" id="review-product" name="reviewproduct" value="review product" class="wf1">
             </fieldset>
             <fieldset>
                 <legend>Your Name</legend>
-                    <label><input type="textarea" name="name" value="name" class="wf1"> </label>
+                    <label><input type="text" id="name" name="name" value="name" class="wf1"> </label>
             </fieldset>
                 <input type="submit" value="Review Product" class="button">
         </form>
