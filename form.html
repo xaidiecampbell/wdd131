@@ -26,72 +26,73 @@
 </head>
 
 <body>
-   
+   <header>
+    <h1>Product Review</h1>
+   </header>
 
     <main>
-        <h1>Product Review</h1>
         <form method="get" action="review.html" class="wf1"></form>
-        <fieldset>
-            <legend>Product Name*</legend>
-            <label>
-                <select name="Product" required>
-                    <option value="" id="options" disabled selected>Select a product &#9662;</option>
-                    <option value="motherslg" id="options">Large Mother's Care Kit</option>
-                    <option value="mothersmd" id="options">Medium Mother's Care Kit</option>
-                    <option value="motherssm" id="options">Small Mother's Care Kit</option>
-                    <option value="book" id="options">Jellybean Book</option>
-                    <option value="coloring" id="options">Coloring Book Set</option>
-                    <option value="dinosaur" id="options">Stuffed Animal Dinosaur</option>
-                    <option value="fatticorn" id="options">Stuffed Animal Fatticorn</option>
-                    <option value="carekit" id="options">Self Care Kit</option>
-                    
-                </select>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Overall Rating*</legend>
-            <label>
-                <div>
-                    <label><input type="radio" name="star" value="1" class="wf1" required> ☆</label>
-                    <label><input type="radio" name="star" value="2" class="wf1" required> ☆☆</label>
-                    <label><input type="radio" name="star" value="3" class="wf1" required> ☆☆☆</label>
-                    <label><input type="radio" name="star" value="4" class="wf1" required> ☆☆☆☆</label>
-                    <label><input type="radio" name="star" value="5" class="wf1" required> ☆☆☆☆☆</label>
-                </div>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Date of Purchase*</legend>
-            <label>
-                <label><input type="date" name="purchaseDate" class="wf1" required></label>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>What did you like best about the product?*</legend>
-            <label>
-                <div>
-                    <label><input type="checkbox" name="quality" value="yes" class="wf1" > The quality</label>
-                    <label><input type="checkbox" name="relax" value="yes" class="wf1"  > It helped me relax</label>
-                    <label><input type="checkbox" name="value" value="yes" class="wf1" > Good value for the price</label>
-                    <label><input type="checkbox" name="design" value="yes"class="wf1" > It was beautiful</label>
-                </div>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Please tell us what you thought of our product.</legend>
-            <label>
-                <label><input type="text" id="review-product" name="reviewproduct" value="review product" class="wf1"> </label>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Your Name</legend>
-            <label>
-                <label><input type="textarea" name="name" value="name" class="wf1"> </label>
-            </label>
-        </fieldset>
-            <label></label>
-                <input type="submit" value="Review Product" class="button">
-            </label>
+            <fieldset>
+                <legend>Product Name*</legend>
+                <label>
+                    <select name="Product" id="options" required>
+                        <option value="" disabled selected>Select a product &#9662;</option>
+                        <option value="motherslg" >Large Mother's Care Kit</option>
+                        <option value="mothersmd" >Medium Mother's Care Kit</option>
+                        <option value="motherssm" >Small Mother's Care Kit</option>
+                        <option value="book" >Jellybean Book</option>
+                        <option value="coloring" >Coloring Book Set</option>
+                        <option value="dinosaur" >Stuffed Animal Dinosaur</option>
+                        <option value="fatticorn" >Stuffed Animal Fatticorn</option>
+                        <option value="carekit" >Self Care Kit</option>
+                        
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Rating*</legend>
+                <label>
+                    <div>
+                        <label><input type="radio" name="star" value="1" class="wf1" required> ☆</label>
+                        <label><input type="radio" name="star" value="2" class="wf1" required> ☆☆</label>
+                        <label><input type="radio" name="star" value="3" class="wf1" required> ☆☆☆</label>
+                        <label><input type="radio" name="star" value="4" class="wf1" required> ☆☆☆☆</label>
+                        <label><input type="radio" name="star" value="5" class="wf1" required> ☆☆☆☆☆</label>
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Date of Purchase*</legend>
+                <label>
+                    <label><input type="date" name="purchaseDate" class="wf1" required></label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What did you like best about the product?*</legend>
+                <label>
+                    <div>
+                        <label><input type="checkbox" name="quality" value="yes" class="wf1" > The quality</label>
+                        <label><input type="checkbox" name="relax" value="yes" class="wf1"  > It helped me relax</label>
+                        <label><input type="checkbox" name="value" value="yes" class="wf1" > Good value for the price</label>
+                        <label><input type="checkbox" name="design" value="yes"class="wf1" > It was beautiful</label>
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Please tell us what you thought of our product.</legend>
+                <label>
+                    <label><input type="text" id="review-product" name="reviewproduct" value="review product" class="wf1"> </label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name</legend>
+                <label>
+                    <label><input type="textarea" name="name" value="name" class="wf1"> </label>
+                </label>
+            </fieldset>
+                <label></label>
+                    <input type="submit" value="Review Product" class="button">
+                </label>
         </form>
     </main>
     <footer>
