@@ -8,7 +8,7 @@
 
     <title>Product Review Form</title>
 
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- STYLE SHEETS -->
@@ -26,9 +26,9 @@
 </head>
 
 <body>
-   <header>
-    <h1>Product Review</h1>
-   </header>
+    <header>
+        <h1>Product Review</h1>
+    </header>
 
     <main>
         <form method="get" action="review.html" class="wf1">
@@ -37,56 +37,56 @@
                 <label>
                     <select name="Product" id="options" required>
                         <option value="" disabled selected>Select a product &#9662;</option>
-                        <option value="motherslg" >Large Mother's Care Kit</option>
-                        <option value="mothersmd" >Medium Mother's Care Kit</option>
-                        <option value="motherssm" >Small Mother's Care Kit</option>
-                        <option value="book" >Jellybean Book</option>
-                        <option value="coloring" >Coloring Book Set</option>
-                        <option value="dinosaur" >Stuffed Animal Dinosaur</option>
-                        <option value="fatticorn" >Stuffed Animal Fatticorn</option>
-                        <option value="carekit" >Self Care Kit</option>
-                        
+                        <option value="motherslg">Large Mother's Care Kit</option>
+                        <option value="mothersmd">Medium Mother's Care Kit</option>
+                        <option value="motherssm">Small Mother's Care Kit</option>
+                        <option value="book">Jellybean Book</option>
+                        <option value="coloring">Coloring Book Set</option>
+                        <option value="dinosaur">Stuffed Animal Dinosaur</option>
+                        <option value="fatticorn">Stuffed Animal Fatticorn</option>
+                        <option value="carekit">Self Care Kit</option>
+
                     </select>
                 </label>
             </fieldset>
             <fieldset>
                 <legend>Overall Rating*</legend>
-            
+
                 <div class="rating-option">
                     <input type="radio" name="star" id="star1" value="1" required>
                     <label for="star1">☆</label>
                 </div>
-            
+
                 <div class="rating-option">
                     <input type="radio" name="star" id="star2" value="2" required>
                     <label for="star2">☆☆</label>
                 </div>
-            
+
                 <div class="rating-option">
                     <input type="radio" name="star" id="star3" value="3" required>
                     <label for="star3">☆☆☆</label>
                 </div>
-            
+
                 <div class="rating-option">
                     <input type="radio" name="star" id="star4" value="4" required>
                     <label for="star4">☆☆☆☆</label>
                 </div>
-            
+
                 <div class="rating-option">
                     <input type="radio" name="star" id="star5" value="5" required>
                     <label for="star5">☆☆☆☆☆</label>
                 </div>
-            
+
             </fieldset>
             <fieldset>
                 <legend>Date of Purchase*</legend>
-                    <input type="date" name="purchaseDate" class="wf1" required>
-                    <label for="date"></label>
+                <input type="date" name="date" id="date" class="wf1" required>
+                <label for="date"></label>
             </fieldset>
             <fieldset>
                 <legend>What did you like best about the product?*</legend>
                 <div class="rating-option">
-                    <input type="checkbox" id="quality" name="quality" value="yes" class="wf1" >
+                    <input type="checkbox" id="quality" name="quality" value="yes" class="wf1">
                     <label for="quality">The quality</label>
                 </div>
                 <div class="rating-option">
@@ -102,14 +102,16 @@
                     <label for="design">It was beautiful</label>
                 </div>
             </fieldset>
+            <fieldset>
                 <legend>Please tell us what you thought of our product.</legend>
                 <label for="review-product"></label>
-                <textarea id="review-product" name="reviewproduct" class="wf1" rows="4" cols="50" placeholder="Review product"></textarea>
-            <fieldset>
-                <legend>Your Name</legend>
-                    <input type="text" id="name" name="name" value="name" class="wf1"> 
+                <textarea id="review-product" name="reviewproduct" class="wf1" rows="4" cols="50"
+                    placeholder="Review product"></textarea>
+                <fieldset>
+                    <legend>Your Name</legend>
+                    <input type="text" id="name" name="name" value="name" class="wf1">
                     <label for="name"></label>
-            </fieldset>
+                </fieldset>
                 <input type="submit" value="Review Product" class="button">
         </form>
     </main>
@@ -117,7 +119,7 @@
         <p>@<span id="currentYear"></span> 🌼 Xaidie Campbell 🌼 Worcester, Massachusetts</p>
         <p><span id="lastModified"></span></p>
     </footer>
-    
+
 </body>
 
 </html>
