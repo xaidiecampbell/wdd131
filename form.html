@@ -58,30 +58,30 @@
                 </div>
             
                 <div class="rating-option">
-                    <input type="radio" name="star" id="star2" value="2">
+                    <input type="radio" name="star" id="star2" value="2" required>
                     <label for="star2">☆☆</label>
                 </div>
             
                 <div class="rating-option">
-                    <input type="radio" name="star" id="star3" value="3">
+                    <input type="radio" name="star" id="star3" value="3" required>
                     <label for="star3">☆☆☆</label>
                 </div>
             
                 <div class="rating-option">
-                    <input type="radio" name="star" id="star4" value="4">
+                    <input type="radio" name="star" id="star4" value="4" required>
                     <label for="star4">☆☆☆☆</label>
                 </div>
             
                 <div class="rating-option">
-                    <input type="radio" name="star" id="star5" value="5">
+                    <input type="radio" name="star" id="star5" value="5" required>
                     <label for="star5">☆☆☆☆☆</label>
                 </div>
             
             </fieldset>
             <fieldset>
                 <legend>Date of Purchase*</legend>
-                <input type="date" name="purchaseDate" class="wf1" required>
-                <label for="date"></label>
+                    <input type="date" name="purchaseDate" class="wf1" required>
+                    <label for="date"></label>
             </fieldset>
             <fieldset>
                 <legend>What did you like best about the product?*</legend>
@@ -102,13 +102,13 @@
                     <label for="design">It was beautiful</label>
                 </div>
             </fieldset>
-            <fieldset>
                 <legend>Please tell us what you thought of our product.</legend>
-                    <input type="textarea" id="review-product" name="reviewproduct" value="review product" class="wf1">
-            </fieldset>
+                <label for="review-product"></label>
+                <textarea id="review-product" name="reviewproduct" class="wf1" rows="4" cols="50" placeholder="Review product"></textarea>
             <fieldset>
                 <legend>Your Name</legend>
-                    <label><input type="text" id="name" name="name" value="name" class="wf1"> </label>
+                    <input type="text" id="name" name="name" value="name" class="wf1"> 
+                    <label for="name"></label>
             </fieldset>
                 <input type="submit" value="Review Product" class="button">
         </form>
