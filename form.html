@@ -51,22 +51,56 @@
             </fieldset>
             <fieldset>
                 <legend>Overall Rating*</legend>
-                    <label><input type="radio" name="star" id="star" value="1" class="wf1" required> ☆</label>
-                    <label><input type="radio" name="star" id="star" value="2" class="wf1" required> ☆☆</label>
-                    <label><input type="radio" name="star" id="star" value="3" class="wf1" required> ☆☆☆</label>
-                    <label><input type="radio" name="star" id="star" value="4" class="wf1" required> ☆☆☆☆</label>
-                    <label><input type="radio" name="star" id="star" value="5" class="wf1" required> ☆☆☆☆☆</label>
+            
+                <div class="rating-option">
+                    <input type="radio" name="star" id="star1" value="1" required>
+                    <label for="star1">☆</label>
+                </div>
+            
+                <div class="rating-option">
+                    <input type="radio" name="star" id="star2" value="2">
+                    <label for="star2">☆☆</label>
+                </div>
+            
+                <div class="rating-option">
+                    <input type="radio" name="star" id="star3" value="3">
+                    <label for="star3">☆☆☆</label>
+                </div>
+            
+                <div class="rating-option">
+                    <input type="radio" name="star" id="star4" value="4">
+                    <label for="star4">☆☆☆☆</label>
+                </div>
+            
+                <div class="rating-option">
+                    <input type="radio" name="star" id="star5" value="5">
+                    <label for="star5">☆☆☆☆☆</label>
+                </div>
+            
             </fieldset>
             <fieldset>
                 <legend>Date of Purchase*</legend>
-                    <label><input type="date" name="purchaseDate" class="wf1" required></label>
+                <input type="date" name="purchaseDate" class="wf1" required>
+                <label for="date"></label>
             </fieldset>
             <fieldset>
                 <legend>What did you like best about the product?*</legend>
-                    <label><input type="checkbox" id="quality" name="quality" value="yes" class="wf1" > The quality</label>
-                    <label><input type="checkbox" id="relax" name="relax" value="yes" class="wf1"  > It helped me relax</label>
-                    <label><input type="checkbox" id="value" name="value" value="yes" class="wf1" > Good value for the price</label>
-                    <label><input type="checkbox" id="design" name="design" value="yes" class="wf1" > It was beautiful</label>
+                <div class="rating-option">
+                    <input type="checkbox" id="quality" name="quality" value="yes" class="wf1" >
+                    <label for="quality">The quality</label>
+                </div>
+                <div class="rating-option">
+                    <input type="checkbox" id="relax" name="relax" value="yes" class="wf1">
+                    <label for="relax">It helped me relax</label>
+                </div>
+                <div class="rating-option">
+                    <input type="checkbox" id="value" name="value" value="yes" class="wf1">
+                    <label for="value">It was good value for the price</label>
+                </div>
+                <div class="rating-option">
+                    <input type="checkbox" id="design" name="design" value="yes" class="wf1">
+                    <label for="design">It was beautiful</label>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Please tell us what you thought of our product.</legend>
