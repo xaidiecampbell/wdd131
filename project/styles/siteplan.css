@@ -10,17 +10,47 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav {
+    padding: 1rem;
+    margin: 10px;
+    background-color: var(--color7);
+}
+
+.logo {
+    max-width: 100px;
+}
+
+img {
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    text-size-adjust: var(--primary-color);
+}
+
 h1 {
     display: block;
-    font: Gill Sans;grid-area: nav;
-        background-color: #cf7041;
-        padding: 1rem;
-        text-align: center;
+    font: Gill Sans;
+    grid-area: nav;
+    background-color: #cf7041;
+    padding: 1rem;
+    text-align: center;
 }
-main {grid-area: nav;
+
+main {
+    grid-area: nav;
     background-color: var(--color8);
     padding: 1rem;
-    text-align: center;}
+    text-align: center;
+}
+
 h2 {
     color: #5e718b;
 }
@@ -45,37 +75,44 @@ p {
     background-color: var(--color1);
 }
 
-.green-box {width: 100px;
+.green-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color2);
 }
 
-.dkorange-box {width: 100px;
+.dkorange-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color3);
 }
 
-.ltorange-box {width: 100px;
+.ltorange-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color4);
 }
 
-.dkgray-box {width: 100px;
+.dkgray-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color5);
 }
 
-.ltgray-box {width: 100px;
+.ltgray-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color6);
 }
 
-.pink-box {width: 100px;
+.pink-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color7);
 }
 
-.ltpink-box {width: 100px;
+.ltpink-box {
+    width: 100px;
     height: 100px;
     background-color: var(--color8);
 }

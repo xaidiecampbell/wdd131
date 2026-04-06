@@ -4,12 +4,42 @@
     --accent1-color: #cf7041;
     --accent2-color: #96aa9a;
     --accent3-color: #e8c3b9;
-    --font-family: sans-serif;
+    --color1: #5e718b;
+    --color2: #96aa9a;
+    --color3: #cf7041;
+    --color4: #e2a55a;
+    --color5: #868484;
+    --color6: #dde5e6;
+    --color7: #e8c3b9;
+    --color8: #eddeda;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
 }
 
 header {
     display: block;
     text-align: center;
+}
+
+nav {
+    padding: 1rem;
+    margin: 10px;
+    background-color: var(--accent3-color);
+}
+
+.logo {
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    text-size-adjust: var(--primary-color);
 }
 
 footer {
@@ -46,9 +76,14 @@ nav ul {
 }
 
 nav a:hover {
-    text-decoration: overline;text-size-adjust: var(--primary-color);
+    text-decoration: overline;
+    text-size-adjust: var(--primary-color);
 }
-.logo {max-width: 100px;}
+
+.logo {
+    max-width: 100px;
+}
+
 main {
     background-color: var(--accent2-color);
     display: grid;
@@ -134,7 +169,63 @@ footer {
     gap: 3.5rem;
     text-align: center;
 }
+.color-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
 
+.blue-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color1);
+}
+
+.green-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color2);
+}
+
+.dkorange-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color3);
+}
+
+.ltorange-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color4);
+}
+
+.dkgray-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color5);
+}
+
+.ltgray-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color6);
+}
+
+.pink-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color7);
+}
+
+.ltpink-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color8);
+}
 @media (max-width: 700px) {
     .res-grid {
         grid-template-columns: 1fr;
