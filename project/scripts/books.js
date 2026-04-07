@@ -3,25 +3,7 @@ document.getElementById("currentYear").textContent = year;
 
 document.getElementById("lastModified").textContent = document.lastModified;
 
-let viewCount = localStorage.getItem("pageViews");
 
-if (viewCount === null) {
-    viewCount = 1;
-} else {
-    viewCount = Number(viewCount) + 1;
-}
-
-localStorage.setItem("pageViews", viewCount);
-
-// Display it on the page
-document.querySelector("#viewCount").textContent = viewCount;
-
-const menuBtn = document.querySelector("#menuBtn");
-const navMenu = document.querySelector("#navMenu");
-menuBtn.addEventListener("click", function () {
-    navMenu.classList.toggle("open");
-
-})
 
 const books = [
     {
@@ -116,3 +98,4 @@ if (viewCount === null) {
 localStorage.setItem("pageViews", viewCount);
 
 document.querySelector("#viewCount").textContent = viewCount;
+
